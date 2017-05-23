@@ -492,7 +492,7 @@ function updatePositions() {
   //w.postMessage({"items": items});
   frame++;
   window.performance.mark("mark_start_frame");
-  var phases = [Math.sin((document.body.scrollTop / 1250), Math.sin((document.body.scrollTop / 1250) + 1, Math.sin((document.body.scrollTop / 1250) + 2, Math.sin((document.body.scrollTop / 1250) + 3, Math.sin((document.body.scrollTop / 1250) + 4)];
+  var phases = [Math.sin((document.body.scrollTop / 1250)), Math.sin((document.body.scrollTop / 1250) + 1), Math.sin((document.body.scrollTop / 1250) + 2), Math.sin((document.body.scrollTop / 1250) + 3), Math.sin((document.body.scrollTop / 1250) + 4)];
   for (var i = 0; i < items.length; i++) {
     var phase = phases[i%5]
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
