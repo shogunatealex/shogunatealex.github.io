@@ -20,7 +20,7 @@ To get started, check out the repository and inspect the code.
 * Minified the perfmatters.js script.
 * made the google analytics script run asynchronously
 
-3. *Images
+3. Images
 * Optimized all the images using Photoshop save for web feature.
 * Reduced the size of the pizzeria from 2K to 720P, then created a thumbnail that was even smaller for the main page.
 * Downloaded the pictures locally so that they wouldn't need to call a server every time. This reduced the CRP.
