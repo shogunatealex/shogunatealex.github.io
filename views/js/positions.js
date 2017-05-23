@@ -5,4 +5,4 @@ function returnPositions(items){
   }
 }
 
-returnPositions();
+returnPositions(items.items);

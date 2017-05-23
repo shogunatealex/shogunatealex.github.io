@@ -489,7 +489,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 function updatePositions() {
   w = new Worker('positions.js');
   var items = document.querySelectorAll('.mover');
-  w.postMessage(items);
+  w.postMessage({"items": items});
   frame++;
   window.performance.mark("mark_start_frame");
 
