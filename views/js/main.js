@@ -492,7 +492,7 @@ function updatePositions() {
   //w.postMessage({"items": items});
   frame++;
   window.performance.mark("mark_start_frame");
-  var phase1 = Math.sin((document.body.scrollTop / 1250);
+  var phase1 = Math.sin((document.body.scrollTop / 1250));
   for (var i = 0; i < items.length; i++) {
     var phase = phase1 + (i % 5);
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
