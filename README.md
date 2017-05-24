@@ -1,6 +1,7 @@
-## Website Performance Optimization portfolio project
+## Running this file
 
-Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
+If you want to run this project just open index.html in any broswer that you like. From there you will be able to navigate the website!
+
 
 To get started, check out the repository and inspect the code.
 
